@@ -14,7 +14,7 @@ Run `yarn dev` and enjoy!
 
 <hr />
 
-> [See website](https://nextjs-calendar-iota.vercel.app/)
+> [See website](https://commits-calendar.vercel.app/)
 <hr />
 
 ### Stack used: Next.js, Styled Components, GitHub API
