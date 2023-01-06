@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🗓️ Commits Calendar
 
-## Getting Started
+*Web application showing recent commits of specific repository & their details. Also allows user to add local commits to the calendar.*
 
-First, run the development server:
+### For starting project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Run `yarn` after downloading the project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Generate GitHub API key in your profile's developer settings.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Create `.env` file at the root of the project with variable `NEXT_PUBLIC_AUTH_TOKEN` and assign your API key to it.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Run `yarn dev` and enjoy!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<hr />
 
-## Learn More
+> [See website](https://nextjs-calendar-iota.vercel.app/)
+<hr />
 
-To learn more about Next.js, take a look at the following resources:
+### Stack used: Next.js, Styled Components, GitHub API
+<hr />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### *Calendar*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![calendar01](https://user-images.githubusercontent.com/46372998/178102480-4850b773-fc69-4301-9a65-9f287fa02315.png)
 
-## Deploy on Vercel
+#### *Add New Commit*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![calendar02](https://user-images.githubusercontent.com/46372998/178102481-8f94026c-de7b-4544-8818-8179df8e0ceb.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### *Commit Details*
+
+![calendar03](https://user-images.githubusercontent.com/46372998/178102482-3959350f-9b9f-40d6-9a53-ae58b2f78db1.png)
